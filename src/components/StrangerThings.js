@@ -7,13 +7,13 @@ const getRealityClass = (hereIsTheUpsideDownWorld) => (
 );
 
 const strangerThingsConfig = {
-  url: process.env.REACT_APP_HAWKINS_URL,
-  timeout: process.env.REACT_APP_HAWKINS_TIMEOUT,
+  url: 'https://tarcisioliboni-up.herokuapp.com',
+  timeout: 3000,
 };
 
 const upsideDownConfig = {
-  url: process.env.REACT_APP_UPSIDEDOWN_URL,
-  timeout: process.env.REACT_APP_UPSIDEDOWN_TIMEOUT,
+  url: 'https://tarcisioliboni-dw.herokuapp.com',
+  timeout: 3000,
 };
 
 const charactersService = new CharactersService(strangerThingsConfig);
